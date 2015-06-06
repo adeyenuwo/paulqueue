@@ -10,6 +10,8 @@
 
 @implementation PaulQueue
 
+// Instantiate the PaulQueue Object
+
 - (instancetype)init
 {
     self = [super init];
@@ -19,11 +21,14 @@
     return self;
 }
 
+// Add an object to the queue
 - (id)enqueue:(id)obj {
     
     [queue addObject:obj];
     return queue;
 }
+
+// Add an object from the head of the queue
 
 - (id)dequeue
 {
@@ -35,13 +40,19 @@
         
 }
 
+// Check if the queue is empty
+
 - (BOOL)isEmpty {
     return [queue count] == 0;
 }
 
+// Get the size of the queue
+
 - (NSUInteger)size {
     return [queue count];
 }
+
+// Reset the queue
 
 - (void)clear {
     [queue removeAllObjects];
