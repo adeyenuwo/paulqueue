@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDAD22161B2358EB007B9975 /* PaulQueue.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DDAD22151B2358EB007B9975 /* PaulQueue.h */; };
+		DDAD22181B2358EB007B9975 /* PaulQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAD22171B2358EB007B9975 /* PaulQueue.m */; };
+		DDAD221E1B2358EB007B9975 /* libPaulQueue.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDAD22121B2358EB007B9975 /* libPaulQueue.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDAD221F1B2358EB007B9975 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDAD220A1B2358EB007B9975 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDAD22111B2358EB007B9975;
+			remoteInfo = PaulQueue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DDAD22101B2358EB007B9975 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				DDAD22161B2358EB007B9975 /* PaulQueue.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DDAD22121B2358EB007B9975 /* libPaulQueue.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPaulQueue.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDAD22151B2358EB007B9975 /* PaulQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaulQueue.h; sourceTree = "<group>"; };
+		DDAD22171B2358EB007B9975 /* PaulQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaulQueue.m; sourceTree = "<group>"; };
+		DDAD221D1B2358EB007B9975 /* PaulQueueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaulQueueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDAD22231B2358EB007B9975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDAD220F1B2358EB007B9975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDAD221A1B2358EB007B9975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAD221E1B2358EB007B9975 /* libPaulQueue.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDAD22091B2358EB007B9975 = {
+			isa = PBXGroup;
+			children = (
+				DDAD22141B2358EB007B9975 /* PaulQueue */,
+				DDAD22211B2358EB007B9975 /* PaulQueueTests */,
+				DDAD22131B2358EB007B9975 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDAD22131B2358EB007B9975 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDAD22121B2358EB007B9975 /* libPaulQueue.a */,
+				DDAD221D1B2358EB007B9975 /* PaulQueueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDAD22141B2358EB007B9975 /* PaulQueue */ = {
+			isa = PBXGroup;
+			children = (
+				DDAD22151B2358EB007B9975 /* PaulQueue.h */,
+				DDAD22171B2358EB007B9975 /* PaulQueue.m */,
+			);
+			path = PaulQueue;
+			sourceTree = "<group>";
+		};
+		DDAD22211B2358EB007B9975 /* PaulQueueTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDAD22221B2358EB007B9975 /* Supporting Files */,
+			);
+			path = PaulQueueTests;
+			sourceTree = "<group>";
+		};
+		DDAD22221B2358EB007B9975 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDAD22231B2358EB007B9975 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDAD22111B2358EB007B9975 /* PaulQueue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDAD22261B2358EB007B9975 /* Build configuration list for PBXNativeTarget "PaulQueue" */;
+			buildPhases = (
+				DDAD220E1B2358EB007B9975 /* Sources */,
+				DDAD220F1B2358EB007B9975 /* Frameworks */,
+				DDAD22101B2358EB007B9975 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaulQueue;
+			productName = PaulQueue;
+			productReference = DDAD22121B2358EB007B9975 /* libPaulQueue.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DDAD221C1B2358EB007B9975 /* PaulQueueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDAD22291B2358EB007B9975 /* Build configuration list for PBXNativeTarget "PaulQueueTests" */;
+			buildPhases = (
+				DDAD22191B2358EB007B9975 /* Sources */,
+				DDAD221A1B2358EB007B9975 /* Frameworks */,
+				DDAD221B1B2358EB007B9975 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDAD22201B2358EB007B9975 /* PBXTargetDependency */,
+			);
+			name = PaulQueueTests;
+			productName = PaulQueueTests;
+			productReference = DDAD221D1B2358EB007B9975 /* PaulQueueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDAD220A1B2358EB007B9975 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Paul Ade";
+				TargetAttributes = {
+					DDAD22111B2358EB007B9975 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					DDAD221C1B2358EB007B9975 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = DDAD220D1B2358EB007B9975 /* Build configuration list for PBXProject "PaulQueue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DDAD22091B2358EB007B9975;
+			productRefGroup = DDAD22131B2358EB007B9975 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDAD22111B2358EB007B9975 /* PaulQueue */,
+				DDAD221C1B2358EB007B9975 /* PaulQueueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDAD221B1B2358EB007B9975 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDAD220E1B2358EB007B9975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAD22181B2358EB007B9975 /* PaulQueue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDAD22191B2358EB007B9975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDAD22201B2358EB007B9975 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDAD22111B2358EB007B9975 /* PaulQueue */;
+			targetProxy = DDAD221F1B2358EB007B9975 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DDAD22241B2358EB007B9975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DDAD22251B2358EB007B9975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDAD22271B2358EB007B9975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DDAD22281B2358EB007B9975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DDAD222A1B2358EB007B9975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PaulQueueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDAD222B1B2358EB007B9975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PaulQueueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDAD220D1B2358EB007B9975 /* Build configuration list for PBXProject "PaulQueue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDAD22241B2358EB007B9975 /* Debug */,
+				DDAD22251B2358EB007B9975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDAD22261B2358EB007B9975 /* Build configuration list for PBXNativeTarget "PaulQueue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDAD22271B2358EB007B9975 /* Debug */,
+				DDAD22281B2358EB007B9975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDAD22291B2358EB007B9975 /* Build configuration list for PBXNativeTarget "PaulQueueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDAD222A1B2358EB007B9975 /* Debug */,
+				DDAD222B1B2358EB007B9975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDAD220A1B2358EB007B9975 /* Project object */;
+}
